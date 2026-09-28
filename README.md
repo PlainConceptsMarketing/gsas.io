@@ -1,34 +1,11 @@
+# gsas.io
 
-## Running it
+Archivo estático de las ediciones del Global Software Architecture Summit (2019,
+2022, 2023 y 2024). GSAS forma parte ahora de CONVEX Summit (https://www.convexsummit.com).
 
-```
-make serve
-```
+Se sirve con GitHub Pages desde `docs/` en la rama `master`, con el dominio `gsas.io`.
+No hay build ni dependencias: son ficheros HTML/CSS/JS/imagen tal cual.
 
-
-## Guia d'ús
-
-```
-cd ~/Desktop/gsas.io
-```
-
-Git:
-
- Per fer una foto, quan la feina està acabada:
-
-```
-git add .
-git commit -m "$MISSATGE que explica què has fet" ## "Ara el títol porta la font correcta"
-```
-
-  Per compartir els teus canvis (implica actualitzar la web gsas.io):
-
-```
-git push
-```
-
-  Per actualitzar el teu fitxer (de la web o d'un altre company):
-  
-```
-git pull
-```
+La web es 100 % autocontenida: sin analítica, sin cookies de terceros, sin venta de
+entradas ni formularios. Fuentes y librerías se sirven desde `docs/vendor/`. Se generó
+con `web-edge/tools/make_static.py`.

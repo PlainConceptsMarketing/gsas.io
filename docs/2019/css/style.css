@@ -42,7 +42,7 @@ Table of Content:
 /*font Variables*/
 /*Color Variables*/
 /*=================== fonts ====================*/
-@import url("https://fonts.googleapis.com/css?family=Heebo:300,400,500,700|Roboto:300,400,500,700");
+@import url('/vendor/fonts/97aba706ba2b-css.css');
 
 @font-face {
     font-family: Europa;

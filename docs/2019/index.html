@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <script src="js/bootstrap.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/vendor/cdn/ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
 
 <body>
@@ -49,13 +49,9 @@
                         <li class="nav-item"><a class="nav-link" href="#gsasspeakers">Speakers</a></li>
                         <li class="nav-item"><a class="nav-link" href="#gsasschedule">Schedule</a></li>
                         <li class="nav-item"><a class="nav-link" href="#gsasvenue">Venue</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#gsastickets">Tickets</a></li>
-                        
-                    </ul>
+                        </ul>
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="nav-item"><a href="https://en.xing-events.com/JPMDAHC" target="_blank"
-                                                class="tickets_btn">GET TICKETS</a></li>
-                    </ul>
+                        </ul>
                 </div>
             </div>
         </nav>
@@ -1029,8 +1025,7 @@
                         <li><img class="tmbmetro" src="img/metroicon.png"> Metro: Mundet-L3 (Green)</li>
                     </ul>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5982.513824470898!2d2.1481955185281487!3d41.43364677817487!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x388ea765a96af8ee!2sHotel+Alimara+Barcelona!5e0!3m2!1sen!2ses!4v1551881028850"
-                        width="100%" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <a class="map-link" href="https://www.google.com/maps/search/?api=1&amp;query=" target="_blank" rel="noopener">Ver ubicaci&oacute;n en Google Maps</a>
             </div>
         </div>
     </div>
@@ -1539,41 +1534,8 @@
                         border-color: rgba(255, 255, 255, 0.25) !important;
                     }
                 </style>
-                <div id="mc_embed_signup">
-                    <form id="mc-embedded-subscribe-form" class="validate"
-                          action="https://global-software-architecture-summit.us20.list-manage.com/subscribe/post?u=cdc97542109a8f518f22c6393&amp;id=615dbcc977"
-                          method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
-                        <div id="mc_embed_signup_scroll"><label for="mce-EMAIL">Subscribe to our mailing list</label>
-                            <input id="mce-EMAIL" class="email" name="EMAIL" required="" type="email" value=""
-                                   placeholder="email address"/>
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                                <input tabindex="-1"
-                                       name="b_3d056ff39e735cd3e3be0ec81_394f23ba57"
-                                       type="text"
-                                       value=""/>
                             </div>
-                            <div class="clear">
-                                <input id="mc-embedded-subscribe" class="button" name="subscribe"
-                                       type="submit" value="Subscribe"/>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <script type='text/javascript'
-                    src='https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
-            <script type='text/javascript'>(function ($) {
-                window.fnames = new Array();
-                window.ftypes = new Array();
-                fnames[1] = 'FNAME';
-                ftypes[1] = 'text';
-                fnames[0] = 'EMAIL';
-                ftypes[0] = 'email';
-                fnames[2] = 'MMERGE2';
-                ftypes[2] = 'text';
-            }(jQuery));
-            var $mcj = jQuery.noConflict(true);</script>
-            <div class="col-lg-4" id="contactinformation">
+                                    <div class="col-lg-4" id="contactinformation">
                 <p><i class="fa fa-map-marker"></i> Hotel Alimara | Carrer de Berruguete, 126, 08035 Barcelona<br/>
                     <i class="fa fa-phone"></i> (+34) 934 815 085<br/>
                     <i class="fa fa-envelope-o"></i><a href="mailto:gsas@apiumahub.com"> gsas@apiumhub.com</a></p><br/>
@@ -1618,17 +1580,9 @@
     });
 </script>-->
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136779136-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-136779136-1');
-</script>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jquery-3.7.1.min.js"></script>
 <script src="js/popper.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/stellar.js"></script>
@@ -1643,7 +1597,6 @@
 <script src="vendors/counter-up/jquery.counterup.js"></script>
 <script src="js/mail-script.js"></script>
 <!--gmaps Js-->
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
 <script src="js/gmaps.min.js"></script>
 <script src="js/theme.js"></script>
 </body>
